@@ -1,7 +1,7 @@
 # FAQ
 
 ### What is Aura, in one line?
-A score for *how well you work with AI* — prompting, steering, planning, verifying —
+Your AI session insights (your style) on *how you work with AI* — prompting, steering, planning, verifying —
 delivered through an MCP server your agent already speaks to.
 
 ### Do you read my code?
@@ -11,8 +11,8 @@ sends a redacted summary (truncated excerpts, file paths + metadata, counts). Se
 
 ### How is this different from Docker-based tools?
 There's nothing to install and run locally — no container, no daemon, no repo mounting.
-Aura is just an MCP server; your agent does the gathering and redaction inline and scores
-a session in seconds. It also covers **non-coding** work and works with **any MCP client**.
+Aura is just an MCP server; your agent does the gathering and redaction inline and generates insights of your
+session in seconds. It also covers **non-coding** work and works with **any MCP client**.
 
 ### Which agents/tools work?
 Any MCP-capable client — Claude Code, Cursor, Claude Desktop, VS Code — plus connector-style
@@ -37,7 +37,8 @@ No — Aura scores **coding and non-coding** sessions, with dimensions tuned to 
 
 ### Can I score my whole history?
 Yes — ask your agent to "import my history". It reads your local sessions, redacts them,
-and uploads in chunks. Safe to re-run.
+and uploads in chunks. Safe to re-run. Not all agents support this but Claude Code will do by creating a local script and read its own sessions. For other such as Perplexity, Claude, Codex 
+uou may need to nudge the agent to read all its session data and point it to its file.
 
 ### Can I build richer/automatic collection for my tool?
 Yes — that's what plugins are for. See the
