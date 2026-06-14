@@ -12,7 +12,7 @@ passed in.
 | `score_this_session` | "score this session" | Scores ONE just-finished session from a redacted evidence packet; returns score, level, archetype, dimension scores, and session cards. Idempotent — re-scoring won't double-count. |
 | `import_history` | "import my history" | Bulk-imports your past sessions (in chunks) to bootstrap a rich profile. Safe to re-run; already-scored sessions are skipped. |
 | `get_my_profile` | "what's my Aura?" / "show my profile" | Returns your aggregate profile: overall score, level, archetype, averaged dimensions, overall cards, recent sessions, and stats. |
-| `compare_me` | "how do I rank?" | Returns how you compare to your cohort (percentile / rank). |
+| `compare_me` | "how do I rank?" | Returns how you compare to your cohort (percentile / rank). **Note:** `percentile` and `rank` currently return `null` — cohort ranking is a Phase-2 feature, not yet built. |
 | `whoami` | "is Aura connected?" | Confirms the connection and which account is linked; returns a link to your profile. Carries no scores. |
 
 ## Inputs & outputs (high level)
@@ -28,7 +28,8 @@ passed in.
   is safe to resubmit.
 
 - **`get_my_profile()`** / **`whoami()`** / **`compare_me()`** — no arguments; resolved
-  from your token.
+  from your token. Note that `compare_me()` currently returns `null` for `percentile`
+  and `rank` — cohort ranking is a Phase-2 feature, not yet built.
 
 ## Notes
 
