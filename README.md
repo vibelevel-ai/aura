@@ -9,8 +9,7 @@ compact summary, and sends that up. A session scores in seconds. No Docker, no d
 no repo mounting.
 
 This repository is the **public documentation** for Aura — how to use it, how scoring
-works, and what does (and doesn't) leave your machine. It contains no proprietary
-scoring internals.
+works, and what does (and doesn't) leave your machine. 
 
 ---
 
@@ -80,7 +79,7 @@ welcome.
 Aura is in **beta**. Docs here track the current behavior and will evolve. Found
 something inaccurate? Open an issue.
 
-**Community:** join us on [Discord](https://lnkd.in/e_GEeT8E).
+**Community:** join us on [Discord](https://discord.gg/fBbrDJDt).
 
 ## License
 
