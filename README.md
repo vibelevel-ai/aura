@@ -80,9 +80,8 @@ welcome.
 Aura is in **beta**. Docs here track the current behavior and will evolve. Found
 something inaccurate? Open an issue.
 
-*License: TBD — see [Notes](#license).*
+**Community:** join us on [Discord](https://lnkd.in/e_GEeT8E).
 
-### License
-A license for this documentation has not been finalized yet. Until one is added, treat
-the contents as "all rights reserved, readable for use with VibeLevel Aura." A permissive
-docs license (e.g. CC-BY-4.0) is the likely choice.
+## License
+
+[MIT](LICENSE) © 2026 VibeLevel.
