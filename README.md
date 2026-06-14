@@ -70,7 +70,7 @@ That's it. Your Aura profile grows from there.
 
 Want richer, automatic telemetry for your favorite agent? Plugins are community-built
 local collectors that gather more accurate session data and call the Aura MCP for you.
-See the **[Aura Plugins](https://github.com/REPLACE-ME/aura-plugins)** repo — contributions
+See the **[Aura Plugins](https://github.com/vibelevel-ai/aura-plugins)** repo — contributions
 welcome.
 
 ---

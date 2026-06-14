@@ -41,7 +41,7 @@ and uploads in chunks. Safe to re-run.
 
 ### Can I build richer/automatic collection for my tool?
 Yes — that's what plugins are for. See the
-**[Aura Plugins](https://github.com/REPLACE-ME/aura-plugins)** repo and contribute.
+**[Aura Plugins](https://github.com/vibelevel-ai/aura-plugins)** repo and contribute.
 
 ### How do I get a token?
 From your VibeLevel Aura account settings on the web. It looks like `aura_…`. One token
